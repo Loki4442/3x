@@ -1,0 +1,326 @@
+﻿<!doctype html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+<meta http-equiv="X-UA-Compatible" content="ie=edge">
+<title>TRONSAFE - Decentralized Community Support Fund</title>
+<link rel="stylesheet" href="styles/odometer-theme-digital.css?">
+<link rel="stylesheet" href="styles/stylesdee2.css?18">
+<script src="scripts/fontawesome.js" crossorigin="anonymous" type="c283654a95cd6fec9fb1cf78-text/javascript"></script>
+<link rel="icon" href="favicon.png" type="image/png">
+<link rel="stylesheet" href="styles/bootstrap.min.css">
+<style>
+	<!--
+	.thumbnail {
+    max-width: 200px;
+    height: auto;
+    display: block;
+}
+.contlogo {
+    width: 280px;
+    display: block;
+    margin: 40px auto 20px;
+}
+.contesttitle {
+    font-size: 20px;
+    font-weight: 500;
+    color: #69e6ff;
+    margin: 20px 0;
+    text-transform: uppercase;
+}
+.contesttitle img {
+    height: 18px;
+    vertical-align: -2px;
+}
+	-->
+	</style>
+</head>
+<body class="bg-light">
+<main id="App">
+<section class="section-top" style="background-image: url(images/bg_19.jpg);background-repeat:no-repeat; background-position:top;  color:#FFF !important">
+<div class="nav" style="margin-top:0px">
+<div class="logo">
+<a href="index.php.html"><img class="top-heading" src="images/logo.png"></a>
+</div>
+<div class="nav-toggle">
+<i class="fas fa-bars fa-2x"></i>
+</div>
+<div class="nav-links">
+<div class="cross">X</div>
+<ul>
+<li class="nav-link"><a href="index.php.html#join">Join</a></li>
+<li class="nav-link"><a href="index.php.html#contract">contract</a></li>
+<li class="nav-link"><a href="index.php.html#Personal">personal</a></li>
+<li class="nav-link"><a href="index.php.html#Statistics">Statistics</a></li>
+<li class="nav-link"><a href="contest.php.html" style="background-color: #1E92AA;
+font-weight: 600;">Contest</a></li>
+<li class="nav-link"><a href="#" class="active" data-toggle="modal" data-target="#login">view mode</a></li>
+</ul>
+</div>
+</div>
+<div class="container slide-up text-center middle" v-show="tab == 'main'" style="padding-top:0px !important">
+<div class="row">
+<div class="col-md-3"><a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; return setPanel('Zoom');" data-cf-modified-c283654a95cd6fec9fb1cf78-=""><img src="images/zoom.png" alt="Zoom Contest" class="contlogo thumbnail"></a></div>
+<div class="col-md-3"><a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; return setPanel('Telegram');" data-cf-modified-c283654a95cd6fec9fb1cf78-=""><img src="images/telegram.png?23" alt="Telegram Contest" class="contlogo thumbnail"></a></div>
+<div class="col-md-3"><a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; return setPanel('Whatsapp');" data-cf-modified-c283654a95cd6fec9fb1cf78-=""><img src="images/whatsapp.png?jd1" alt="WhatsApp Contest" class="contlogo thumbnail"></a></div>
+<div class="col-md-3"><a href="#" onclick="if (!window.__cfRLUnblockHandlers) return false; return setPanel('Youtube');" data-cf-modified-c283654a95cd6fec9fb1cf78-=""><img src="images/youtube.png?123" alt="YouTube Contest" class="contlogo thumbnail"></a></div>
+</div>
+</div>
+<div class="row align-content-center" style="padding-left:15%;padding-bottom:30px; max-width:80%">
+<div class="calcpage panelYoutube" style="display:none">
+<img src="images/youtube-1.png?v=1.2" alt="" class="contlogo">
+<h2>YouTube video reviews contest!</h2>
+<div class="pagesep"></div>
+<h2><i class="fas fa-trophy-alt"></i> Prize pool: <b>100 000 TRX (~3000$)</b></h2><br>
+<h2><i class="fas fa-calendar-star"></i> Date: <b>10 Oct - 31 Oct 2020</b></h2>
+<div class="pagesep"></div>
+<div class="contdesc">
+Tron3X platform launch unique multilingual promotional contest with huge prize pool. Our main goal is to expand our popularity on YouTube, involve new members to our family and stimulate activity in different parts of the world.
+<div class="contesttitle">HOW TO PARTICIPATE:</div>
+<p><i class="fas fa-star"></i> Create and publish on your YouTube channel video-review about Tron3X platform. Use your native language.</p>
+<p><i class="fas fa-star"></i> Send your review link to special Telegram Group: <a href="https://t.me/tronsafecontest" target="_blank"><button class="button" style="display:inline;max-width:190px;height:auto;"><div class="button-content" style="padding:5px !important">CONTEST GROUP</div></button></a></p>
+<p><i class="fas fa-star"></i> Wait for 31 October and get TRX prizes.</p>
+<div class="contesttitle">Review requirements:</div>
+<p><i class="fas fa-camera-movie"></i> We accept only NEW reviews made and uploaded only after 10 October.</p>
+<p><i class="fas fa-camera-movie"></i> Video should be high quality and be in high definition (720p HD).</p>
+<p><i class="fas fa-camera-movie"></i> Video should contain your voice. Reviews with your face and other people will have an advantage and take a higher place in the prize pool system, but not necessarily.</p>
+<p><i class="fas fa-camera-movie"></i> You should explain all Tron3X nuances and show deposit or withdraw process on the platform. The better you explain, the higher prize you will get.</p>
+<p><i class="fas fa-camera-movie"></i> Your YouTube channel should have more than 100 subscribers. The more potential investors will see your video, the higher prize you will get.</p>
+</div>
+<div class="pagesep"></div>
+<div class="contdesc">
+<h2><i class="fas fa-trophy-alt"></i> Prize places distribution</h2>
+<div class="contesttitle">TOP-5 best quality reviews:</div>
+<p><i class="fas fa-medal"></i> 1st place - <b>20 000 TRX</b> + add on official YouTube channel</p>
+<p><i class="fas fa-medal"></i> 2nd place - <b>8 000 TRX</b> + add on official YouTube channel</p>
+<p><i class="fas fa-medal"></i> 3rd place - <b>5 000 TRX</b></p>
+<p><i class="fas fa-medal"></i> 4th place - <b>3 000 TRX</b></p>
+<p><i class="fas fa-medal"></i> 5th place - <b>2 000 TRX</b></p>
+<p><i class="fas fa-medal"></i> 6th place - <b>1 500 TRX</b></p>
+<p><i class="fas fa-medal"></i> 7th place - <b>1 000 TRX</b></p>
+<p><i class="fas fa-medal"></i> 8th place - <b>1 000 TRX</b></p>
+<p><i class="fas fa-medal"></i> 9th place - <b>500 TRX</b></p>
+<p><i class="fas fa-medal"></i> 10th place - <b>500 TRX</b></p>
+<div class="contesttitle">The most creative and positive video:</div>
+<p><i class="fas fa-medal"></i> 1st place - <b>10 000 TRX</b> + add on official YouTube channel</p>
+<div class="contesttitle">The most viewed and popular video:</div>
+<p><i class="fas fa-medal"></i> 1st place - <b>5 000 TRX</b> + add on official YouTube channel</p>
+<hr>
+<div class="contesttitle">Gurannted reward price for The First 100 video publisher.</div>
+<p><i class="fas fa-medal"></i> Reward price - <b>150 TRX</b> to each</p>
+<hr>
+<div class="contesttitle"><img src="images/flags/irn.svg" alt=""> <img src="images/flags/ara.svg" alt=""> Best Persian/Arabic language video:</div>
+<p><i class="fas fa-medal"></i> 1st place - <b>3 000 TRX</b></p>
+<div class="contesttitle"><img src="images/flags/esp.svg" alt=""> <img src="images/flags/por.svg" alt=""> Best pish/Portugal language video:</div>
+<p><i class="fas fa-medal"></i> 1st place - <b>3 000 TRX</b></p>
+<div class="contesttitle"><img src="images/flags/hin.svg" alt=""> Best Hindi/Urdu language video:</div>
+<p><i class="fas fa-medal"></i> 1st place - <b>3 000 TRX</b></p>
+<div class="contesttitle"><img src="images/flags/rus.svg" alt=""> Best Russian language video:</div>
+<p><i class="fas fa-medal"></i> 1st place - <b>3 000 TRX</b></p>
+<div class="contesttitle"><img src="images/flags/chi.svg" alt=""> Best Chinese/Korean/Japan language video:</div>
+<p><i class="fas fa-medal"></i> 1st place - <b>3 000 TRX</b></p>
+<div class="contesttitle"><img src="images/flags/phi.svg" alt=""> <img src="images/flags/ind.svg" alt=""> Best Philippine/Indonesian language video:</div>
+<p><i class="fas fa-medal"></i> 1st place - <b>3 000 TRX</b></p>
+<div class="contesttitle"><img src="images/flags/vin.svg" alt=""> <img src="images/flags/tha.png" alt=""> Best Vietnamese/Thai language video:</div>
+<p><i class="fas fa-medal"></i> 1st place - <b>3 000 TRX</b></p>
+<div class="contesttitle"><img src="images/flags/fra2.png" alt=""> <img src="images/flags/ger.png" alt=""> Best French/German language video:</div>
+<p><i class="fas fa-medal"></i> 1st place - <b>3 000 TRX</b></p>
+</div>
+<div class="pagesep"></div>
+<div class="contdesc">
+<div class="contesttitle">Results:</div>
+Contest results will be published on <b>31 October</b>. All prizes will be sent to winners at the same day.
+<a href="https://t.me/tronsafecontest" target="_blank" class="maindescbut"><button class="button" style="display:inline;width:40%;height:auto;"><div class="button-content" style="padding:5px !important">Send your review link now!</div></button></a>
+</div>
+</div>
+<div class="calcpage panelWhatsapp" style="display:none">
+<img src="images/whatsapp-1.png?v=1.2" alt="" class="contlogo">
+<h2>WhatsApp contest!</h2>
+<div class="pagesep"></div>
+<h2><i class="fas fa-trophy-alt"></i> Prize pool: <b>100 000 TRX (~3000$)</b></h2><br>
+<h2><i class="fas fa-calendar-star"></i> Date: <b>10 Oct - 31 Oct 2020</b></h2>
+<div class="pagesep"></div>
+<div class="contdesc">
+Tron3X platform launch unique Whatsapp promotional contest with huge prize pool. Our main goal is to expand our community in telegram, involve new member to our family and stimulate activity in different parts of the world.
+<div class="contesttitle">HOW TO PARTICIPATE:</div>
+<p><i class="fas fa-star"></i> Create your whatsapp group to promote tron3x.io.</p>
+<p><i class="fas fa-star"></i> Add maximum members to whatsapp group and promote tron3x.io.</p>
+<div class="contesttitle">Review requirements:</div>
+<p><i class="fas fa-star"></i> Marketing team will review the group and it should be genuine.</p>
+<p><i class="fas fa-star"></i> Marketing team member will be present in your group and review the work. Reward will be given accordingly.</p>
+<p><i class="fas fa-star"></i> You should explain all Tron3X nuances and show deposit or withdraw process on the platform. The better you explain, the higher is your chance to get reward.</p>
+</div>
+<div class="pagesep"></div>
+<div class="contdesc">
+<h2><i class="fas fa-trophy-alt"></i> Prize places distribution</h2>
+<div class="contesttitle">TOP-5 best quality reviews:</div>
+<p><i class="fas fa-medal"></i> 50 members group - <b>200 TRX</b></p>
+<p><i class="fas fa-medal"></i> 125 members group - <b>500 TRX</b></p>
+<p><i class="fas fa-medal"></i> 250 members group - <b>1 250 TRX</b></p>
+</div>
+<div class="pagesep"></div>
+<div class="contdesc">
+<div class="contesttitle">Note:</div>
+<i class="fas fa-star"></i> Add our WhatsApp number <b>+7 995 454-77-11</b> in your group.<br><br><i class="fas fa-star"></i> Add organic members only to get benefit of contest.<br><br><i class="fas fa-star"></i> After your group is created, Marketing member will monitor group activity for 10 days.
+</div>
+<div class="pagesep"></div>
+<div class="contdesc">
+<div class="contesttitle">Results:</div>
+As you complete the target, you will be rewarded with prize.
+<a href="https://t.me/tronsafecontest" target="_blank" class="maindescbut"><button class="button" style="display:inline;width:40%;height:auto;"><div class="button-content" style="padding:5px !important">Send your review link now!</div></button></a>
+</div>
+</div>
+<div class="calcpage panelTelegram" style="display:none">
+<img src="images/telegram-1.png?v=1.2" alt="" class="contlogo">
+<h2>Telegram contest!</h2>
+<div class="pagesep"></div>
+<h2><i class="fas fa-trophy-alt"></i> Prize pool: <b>100 000 TRX (~3000$)</b></h2><br>
+<h2><i class="fas fa-calendar-star"></i> Date: <b>10 Oct - 31 Oct 2020</b></h2>
+<div class="pagesep"></div>
+<div class="contdesc">
+Tron3X platform launch unique Telegram promotional contest with huge prize pool. Our main goal is to expand our community in telegram, involve new member to our family and stimulate activity in different parts of the world.
+<div class="contesttitle">HOW TO PARTICIPATE:</div>
+<p><i class="fas fa-star"></i> Add more and more members to the telegram group and get reward.</p>
+<p><i class="fas fa-star"></i> Add members to the official telegram group: <a href="https://t.me/Tronsafeglobalcommunity" target="_blank"><button class="button" style="display:inline;width:35%;height:auto;"><div class="button-content" style="padding:5px !important">
+Telegram Community</div></button></a></p>
+<p><i class="fas fa-star"></i> Opportunity for admin of any other group to promote tron3x.io and get reward.</p>
+<div class="contesttitle">Review requirements:</div>
+<p><i class="fas fa-camera-movie"></i> We accept genuine participants and who adds member genuinely.</p>
+<p><i class="fas fa-camera-movie"></i> We will review the work and according to members added, reward will be given.</p>
+<p><i class="fas fa-camera-movie"></i> Participant has to message to contest manager after adding members.&nbsp;<a href="https://t.me/tronsafecontest" target="_blank"><button class="button" style="display:inline;max-width:190px;height:auto;"><div class="button-content" style="padding:5px !important">CONTEST GROUP</div></button></a></p>
+</div>
+<div class="pagesep"></div>
+<div class="contdesc">
+<h2><i class="fas fa-trophy-alt"></i> Prize places distribution</h2>
+<p><i class="fas fa-medal"></i> Add 25 members, get: <b>100 TRX</b></p>
+<p><i class="fas fa-medal"></i> Add 100 members, get: <b>250 TRX</b></p>
+<p><i class="fas fa-medal"></i> Add 250 members, get: <b>1000 TRX</b></p>
+</div>
+<div class="pagesep"></div>
+<div class="contdesc">
+<div class="contesttitle">Note:</div>
+Add organic members only to get benefit of contest.
+<br>
+<div class="contesttitle">Results:</div>
+Contest results will be published on <strong>15 October</strong>. All prizes will be sent to winners at the same day.
+<a href="https://t.me/tronsafecontest" target="_blank" class="maindescbut"><button class="button" style="display:inline;width:40%;height:auto;"><div class="button-content" style="padding:5px !important">Send your review link now!</div></button></a>
+</div>
+</div>
+<div class="calcpage panelZoom">
+<img src="images/zoom-1.png?v=1.2" alt="" class="contlogo">
+<h2>Zoom Meeting contest!</h2>
+<div class="pagesep"></div>
+<h2><i class="fas fa-trophy-alt"></i> Prize pool: <b>100 000 TRX (~3000$)</b></h2><br>
+<h2><a href="https://t.me/tronsafecontest" target="_blank" class="maindescbut"><button class="button" style="width:100%"><div class="button-content">Register Your Zoom Meeting</div></button></a></h2>
+<div class="pagesep"></div>
+<div class="contdesc">
+Tron3X platform launch unique ZOOM MEETING promotional contest with huge prize pool. Our main goal is to let our user speaks about their experience about Tron3X, explanation of project and let people connect directly with us.
+<div class="contesttitle">HOW TO PARTICIPATE:</div>
+<p><i class="fas fa-star"></i> Conduct ZOOM MEETING of 20 people, 50 people or 100 people and get rewards accordingly.</p>
+<p><i class="fas fa-star"></i> In zoom meeting host has to discuss various topics about tron3x.io.</p>
+<div class="contesttitle">Points to be covered in zoom meeting:</div>
+<p><i class="fas fa-star"></i> Why tron3x.io is best?</p>
+<p><i class="fas fa-star"></i> We are the first giving 300% return on investment; show importance to attendees in your way.</p>
+<p><i class="fas fa-star"></i> Explain 10% direct referral income (Ex: As community will grow, this income can become huge, show them the importance of referral income).</p>
+<p><i class="fas fa-star"></i> How it works?</p>
+<p><i class="fas fa-star"></i> Your experience and review about project.</p>
+<div class="contesttitle">Review requirements:</div>
+<p><i class="fas fa-star"></i> Participants will be rewarded as per the ZOOM MEETING people gathering.</p>
+<p><i class="fas fa-star"></i> Marketing team will select best zoom meeting conducted in terms of explanation.</p>
+<p><i class="fas fa-star"></i> Marketing team will select participant on the basis of positive discussion done by him/her with attendees.</p>
+<p><i class="fas fa-star"></i> You should explain all Tron3X nuances and show deposit or withdraw process on the platform. The better you explain, the higher is your chance to get reward.</p>
+</div>
+<div class="pagesep"></div>
+<div class="contdesc">
+<h2><i class="fas fa-trophy-alt"></i> Prize places distribution</h2>
+<p><i class="fas fa-medal"></i> 20 people zoom meeting - <b> 500 TRX</b></p>
+<p><i class="fas fa-medal"></i> 50 people zoom meeting - <b>1 000 TRX</b></p>
+<p><i class="fas fa-medal"></i> 100 people zoom meeting - <b>2 000 TRX</b></p>
+<p><i class="fas fa-medal"></i> 500 people zoom meeting - <b>5 000 TRX</b></p>
+</div>
+<div class="pagesep"></div>
+<div class="contdesc">
+<div class="contesttitle">Note:</div>
+Prize distribution is per zoom meeting, you can conduct as many zoom meetings as you can to get more rewards.
+Schedule your zoom meeting by registering in zoom meeting contest page.
+<a href="https://t.me/tronsafecontest" target="_blank" class="maindescbut"><button class="button" style="display:inline;width:40%;height:auto;"><div class="button-content" style="padding:5px !important">Register Your Zoom Meeting</div></button></a>
+</div>
+</div>
+</div>
+</section>
+</main>
+<footer class="footer footer-light bg-white">
+<div class="container text-center">
+<div class="d-flex justify-content-center mt-6 footer-social">
+<a href="https://t.me/Tron3XGlobalCommunity" target="_blank" class="hover-lift-light text-decoration-none mx-2">
+<span class="icon-circle footer-social-icon">
+<i class="fab fa-telegram fa-lg"></i>
+</span>
+</a>
+<a href="tron3xoffice.html" target="_blank" class="hover-lift-light text-decoration-none mx-2">
+<span class="icon-circle footer-social-icon">
+<i class="fab fa-twitter fa-lg"></i>
+</span>
+</a>
+<a href="Tron3x-119198366590923.html" target="_blank" class="hover-lift-light text-decoration-none mx-2">
+<span class="icon-circle footer-social-icon">
+<i class="fab fa-facebook-square fa-lg"></i>
+</span>
+</a>
+<a href="channel/UC03VFknsNFph01v5OO5LASQ.html" target="_blank" class="hover-lift-light text-decoration-none mx-2">
+<span class="icon-circle footer-social-icon">
+<i class="fab fa-youtube fa-lg"></i>
+</span>
+</a>
+<a href="tron3xoffice/index.htm" target="_blank" class="hover-lift-light text-decoration-none mx-2">
+<span class="icon-circle footer-social-icon">
+<i class="fab fa-instagram fa-lg"></i>
+</span>
+</a>
+</div>
+<div class="mt-6">
+<p class="footer-text mb-2">
+All rights reserved © 2020
+</p>
+</div>
+<div class="mt-6">
+<div class="footer-brand" style="font-size:20px; font-weight:600;color:#1e2e50;">
+<a href="index.php.html">
+<img class="top-heading" src="images/logo-black.png" style="height:5vh;">
+</a>
+</div>
+</div>
+</div>
+</footer>
+<div class="modal fade show" style="z-index:999999" id="login" role="dialog">
+<div class="modal-dialog modal-sm">
+<form method="get" action="/view/">
+<div class="modal-content">
+<div style="display:block;background-color: #1E92AA;color: white;" class="modal-header">
+<button type="button" class="close" data-dismiss="modal">×</button>
+<h4 class="modal-title">View Mode</h4>
+</div>
+<div class="modal-body text-center">
+<label>User Id</label>&nbsp;&nbsp;<input type="text" name="user" required="" maxlength="5" class="numberonly">
+</div>
+<div class="modal-footer">
+<button type="submit" class="btn btn-success" style="background-color:#1E92AA;font-weight:700">Go</button>&nbsp;&nbsp;<button type="button" data-dismiss="modal" class="btn btn-default">Close</button>
+</div>
+</div>
+</form>
+</div>
+</div>
+<script src="scripts/cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js" type="c283654a95cd6fec9fb1cf78-text/javascript"></script>
+<script src="bootstrap/3.4.1/js/bootstrap.min.js" type="c283654a95cd6fec9fb1cf78-text/javascript"></script>
+<script type="c283654a95cd6fec9fb1cf78-text/javascript">
+function setPanel(panel)
+{
+	$(".calcpage").css("display","none");
+	$(".panel"+panel).css("display","block");
+	return false;
+}
+</script>
+<script src="cdn-cgi/scripts/7d0fa10a/cloudflare-static/rocket-loader.min.js" data-cf-settings="c283654a95cd6fec9fb1cf78-|49" defer=""></script><script defer="" src="beacon.min.js" data-cf-beacon='{"rayId":"661b16ca1aa9de46","version":"2021.5.2","r":1,"token":"b4fcc9be431f4011970f405645b68334","si":10}'></script>
+</body>
+</html>
